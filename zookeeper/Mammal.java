@@ -7,6 +7,10 @@ public class Mammal {
 		this.energyLevel = 100;
 	}
 	
+	public Mammal(int energy) {
+		this.energyLevel = energy;
+	}
+	
 	public int getEnergyLevel() {
 		return energyLevel;
 	}
